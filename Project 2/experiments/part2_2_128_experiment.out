@@ -1,0 +1,86 @@
+Setting stack size to unlimited...
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 2061311
+max locked memory       (kbytes, -l) unlimited
+max memory size         (kbytes, -m) 20971520
+open files                      (-n) 65535
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) unlimited
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 4096
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+Running Job...!
+===============================================================================
+Running compiled binary...
+resolution (n) = 128, number of frames (f) = 1
+blocks (b) = 1, threads (t) = 160
+Part1&2
+Time taken: 
+Kernels: 0.078197 sec | Performance: 26.818684 mln_cubes/sec 
+Memcpy:  0.061134 sec 
+Extra:   0.000000 sec 
+Total:   0.139332 sec
+GPU memory usage: used = 1083.750000, free = 31417.375000 MB, total = 32501.125000 MB
+totalNumVertices: 33554432
+totalVerticesAllFrames: 33554432
+resolution (n) = 128, number of frames (f) = 1
+blocks (b) = 10, threads (t) = 160
+Part1&2
+Time taken: 
+Kernels: 0.959460 sec | Performance: 2.185763 mln_cubes/sec 
+Memcpy:  0.061135 sec 
+Extra:   0.000000 sec 
+Total:   1.020594 sec
+GPU memory usage: used = 1083.750000, free = 31417.375000 MB, total = 32501.125000 MB
+totalNumVertices: 33554432
+totalVerticesAllFrames: 33554432
+resolution (n) = 128, number of frames (f) = 1
+blocks (b) = 20, threads (t) = 160
+Part1&2
+Time taken: 
+Kernels: 1.437906 sec | Performance: 1.458476 mln_cubes/sec 
+Memcpy:  0.061132 sec 
+Extra:   0.000000 sec 
+Total:   1.499038 sec
+GPU memory usage: used = 1083.750000, free = 31417.375000 MB, total = 32501.125000 MB
+totalNumVertices: 33554432
+totalVerticesAllFrames: 33554432
+resolution (n) = 128, number of frames (f) = 1
+blocks (b) = 40, threads (t) = 160
+Part1&2
+Time taken: 
+Kernels: 2.416082 sec | Performance: 0.867997 mln_cubes/sec 
+Memcpy:  0.061133 sec 
+Extra:   0.000000 sec 
+Total:   2.477216 sec
+GPU memory usage: used = 1083.750000, free = 31417.375000 MB, total = 32501.125000 MB
+totalNumVertices: 33554432
+totalVerticesAllFrames: 33554432
+resolution (n) = 128, number of frames (f) = 1
+blocks (b) = 80, threads (t) = 160
+Part1&2
+Time taken: 
+Kernels: 4.304527 sec | Performance: 0.487197 mln_cubes/sec 
+Memcpy:  0.061131 sec 
+Extra:   0.000000 sec 
+Total:   4.365658 sec
+GPU memory usage: used = 1083.750000, free = 31417.375000 MB, total = 32501.125000 MB
+totalNumVertices: 33554432
+totalVerticesAllFrames: 33554432
+resolution (n) = 128, number of frames (f) = 1
+blocks (b) = 160, threads (t) = 160
+Part1&2
+Time taken: 
+Kernels: 8.087873 sec | Performance: 0.259296 mln_cubes/sec 
+Memcpy:  0.061131 sec 
+Extra:   0.000000 sec 
+Total:   8.149004 sec
+GPU memory usage: used = 1083.750000, free = 31417.375000 MB, total = 32501.125000 MB
+totalNumVertices: 33554432
+totalVerticesAllFrames: 33554432

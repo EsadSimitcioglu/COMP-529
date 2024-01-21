@@ -1,0 +1,93 @@
+Setting stack size to unlimited...
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 2060498
+max locked memory       (kbytes, -l) unlimited
+max memory size         (kbytes, -m) 20971520
+open files                      (-n) 65535
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) unlimited
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 4096
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+Running Job...!
+===============================================================================
+Running compiled binary...
+resolution (n) = 32, number of frames (f) = 1
+blocks (b) = 1, threads (t) = 1
+CPU
+Time taken: 0.029946 | Performance: 1.094245 mln_cubes/sec 
+
+Part1&2
+Time taken: 
+Kernels: 0.187894 sec | Performance: 0.174396 mln_cubes/sec 
+Memcpy:  0.000983 sec 
+Extra:   0.000000 sec 
+Total:   0.188877 sec
+GPU memory usage: used = 326.000000, free = 32175.125000 MB, total = 32501.125000 MB
+resolution (n) = 32, number of frames (f) = 5
+blocks (b) = 1, threads (t) = 1
+CPU
+Time taken: 0.185500 | Performance: 0.883236 mln_cubes/sec 
+
+Part1&2
+Time taken: 
+Kernels: 0.871242 sec | Performance: 0.188053 mln_cubes/sec 
+Memcpy:  0.004871 sec 
+Extra:   0.000000 sec 
+Total:   0.876113 sec
+GPU memory usage: used = 374.000000, free = 32127.125000 MB, total = 32501.125000 MB
+resolution (n) = 32, number of frames (f) = 10
+blocks (b) = 1, threads (t) = 1
+CPU
+Time taken: 0.380869 | Performance: 0.860348 mln_cubes/sec 
+
+Part1&2
+Time taken: 
+Kernels: 1.740550 sec | Performance: 0.188262 mln_cubes/sec 
+Memcpy:  0.009749 sec 
+Extra:   0.000000 sec 
+Total:   1.750299 sec
+GPU memory usage: used = 434.000000, free = 32067.125000 MB, total = 32501.125000 MB
+resolution (n) = 128, number of frames (f) = 1
+blocks (b) = 1, threads (t) = 1
+CPU
+Time taken: 1.528046 | Performance: 1.372441 mln_cubes/sec 
+
+Part1&2
+Time taken: 
+Kernels: 8.905044 sec | Performance: 0.235502 mln_cubes/sec 
+Memcpy:  0.061201 sec 
+Extra:   0.000000 sec 
+Total:   8.966245 sec
+GPU memory usage: used = 1084.000000, free = 31417.125000 MB, total = 32501.125000 MB
+resolution (n) = 128, number of frames (f) = 5
+blocks (b) = 1, threads (t) = 1
+CPU
+Time taken: 9.095157 | Performance: 1.152895 mln_cubes/sec 
+
+Part1&2
+Time taken: 
+Kernels: 45.129073 sec | Performance: 0.232350 mln_cubes/sec 
+Memcpy:  0.305967 sec 
+Extra:   0.000000 sec 
+Total:   45.435041 sec
+GPU memory usage: used = 4168.000000, free = 28333.125000 MB, total = 32501.125000 MB
+CUDA error at main.cu:694 code=1(cudaErrorInvalidValue) "cudaMallocHost(&meshNormals_buffer, totalVerticesAllFrames * sizeof(float3))" 
+resolution (n) = 128, number of frames (f) = 10
+blocks (b) = 1, threads (t) = 1
+CPU
+Time taken: 18.540307 | Performance: 1.131131 mln_cubes/sec 
+
+Part1&2
+Time taken: 
+Kernels: 90.362611 sec | Performance: 0.232082 mln_cubes/sec 
+Memcpy:  0.611978 sec 
+Extra:   0.000000 sec 
+Total:   90.974589 sec
+GPU memory usage: used = 8024.000000, free = 24477.125000 MB, total = 32501.125000 MB

@@ -1,0 +1,45 @@
+Setting stack size to unlimited...
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 2060603
+max locked memory       (kbytes, -l) unlimited
+max memory size         (kbytes, -m) 20971520
+open files                      (-n) 65535
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) unlimited
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 4096
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+Running Job...!
+===============================================================================
+Running compiled binary...
+resolution (n) = 50, number of frames (f) = 30
+blocks (b) = 40, threads (t) = 64
+CPU
+Time taken: 6.708171 | Performance: 0.559020 mln_cubes/sec 
+
+Part1&2
+Time taken: 
+Kernels: 0.016850 sec | Performance: 222.553606 mln_cubes/sec 
+Memcpy:  0.111722 sec 
+Extra:   2.590385 sec 
+Total:   2.718957 sec
+GPU memory usage: used = 1694.000000, free = 30807.125000 MB, total = 32501.125000 MB
+
+Part3
+Time taken: 
+Kernels: 0.000023 sec | Performance: 164661.456046 mln_cubes/sec 
+Memcpy:  0.000000 sec 
+Extra:   0.681234 sec 
+Total:   0.681257 sec
+GPU memory usage: used = 1694.000000, free = 30807.125000 MB, total = 32501.125000 MB
+
+Part4
+Time taken: 
+Total: 0.722068 sec
+GPU memory usage: used = 1694.000000, free = 30807.125000 MB, total = 32501.125000 MB

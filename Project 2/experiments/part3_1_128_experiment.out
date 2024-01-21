@@ -1,0 +1,101 @@
+Setting stack size to unlimited...
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 2060498
+max locked memory       (kbytes, -l) unlimited
+max memory size         (kbytes, -m) 20971520
+open files                      (-n) 65535
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) unlimited
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 4096
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+Running Job...!
+===============================================================================
+Running compiled binary...
+resolution (n) = 128, number of frames (f) = 1
+blocks (b) = 1, threads (t) = 1
+Part3
+Time taken: 
+Kernels: 22.504036 sec | Performance: 0.093190 mln_cubes/sec 
+Memcpy:  0.167893 sec 
+Extra:   0.000000 sec 
+Total:   22.671929 sec
+GPU memory usage: used = 1088.000000, free = 31413.125000 MB, total = 32501.125000 MB
+resolution (n) = 128, number of frames (f) = 1
+blocks (b) = 1, threads (t) = 4
+Part3
+Time taken: 
+Kernels: 6.764269 sec | Performance: 0.310034 mln_cubes/sec 
+Memcpy:  0.167685 sec 
+Extra:   0.000000 sec 
+Total:   6.931954 sec
+GPU memory usage: used = 1088.000000, free = 31413.125000 MB, total = 32501.125000 MB
+resolution (n) = 128, number of frames (f) = 1
+blocks (b) = 1, threads (t) = 16
+Part3
+Time taken: 
+Kernels: 2.397434 sec | Performance: 0.874748 mln_cubes/sec 
+Memcpy:  0.167560 sec 
+Extra:   0.000000 sec 
+Total:   2.564995 sec
+GPU memory usage: used = 1088.000000, free = 31413.125000 MB, total = 32501.125000 MB
+resolution (n) = 128, number of frames (f) = 1
+blocks (b) = 1, threads (t) = 32
+Part3
+Time taken: 
+Kernels: 2.272294 sec | Performance: 0.922923 mln_cubes/sec 
+Memcpy:  0.168047 sec 
+Extra:   0.000000 sec 
+Total:   2.440341 sec
+GPU memory usage: used = 1088.000000, free = 31413.125000 MB, total = 32501.125000 MB
+resolution (n) = 128, number of frames (f) = 1
+blocks (b) = 1, threads (t) = 64
+Part3
+Time taken: 
+Kernels: 1.908349 sec | Performance: 1.098935 mln_cubes/sec 
+Memcpy:  0.167983 sec 
+Extra:   0.000000 sec 
+Total:   2.076332 sec
+GPU memory usage: used = 1088.000000, free = 31413.125000 MB, total = 32501.125000 MB
+resolution (n) = 128, number of frames (f) = 1
+blocks (b) = 1, threads (t) = 128
+Part3
+Time taken: 
+Kernels: 2.204446 sec | Performance: 0.951328 mln_cubes/sec 
+Memcpy:  0.167958 sec 
+Extra:   0.000000 sec 
+Total:   2.372405 sec
+GPU memory usage: used = 1088.000000, free = 31413.125000 MB, total = 32501.125000 MB
+resolution (n) = 128, number of frames (f) = 1
+blocks (b) = 1, threads (t) = 256
+Part3
+Time taken: 
+Kernels: 0.208798 sec | Performance: 10.043938 mln_cubes/sec 
+Memcpy:  0.167252 sec 
+Extra:   0.000000 sec 
+Total:   0.376049 sec
+GPU memory usage: used = 1088.000000, free = 31413.125000 MB, total = 32501.125000 MB
+resolution (n) = 128, number of frames (f) = 1
+blocks (b) = 1, threads (t) = 512
+Part3
+Time taken: 
+Kernels: 0.011329 sec | Performance: 185.110481 mln_cubes/sec 
+Memcpy:  0.167238 sec 
+Extra:   0.000000 sec 
+Total:   0.178567 sec
+GPU memory usage: used = 1088.000000, free = 31413.125000 MB, total = 32501.125000 MB
+resolution (n) = 128, number of frames (f) = 1
+blocks (b) = 1, threads (t) = 1024
+Part3
+Time taken: 
+Kernels: 0.010053 sec | Performance: 208.619613 mln_cubes/sec 
+Memcpy:  0.167677 sec 
+Extra:   0.000000 sec 
+Total:   0.177730 sec
+GPU memory usage: used = 1088.000000, free = 31413.125000 MB, total = 32501.125000 MB
